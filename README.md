@@ -147,7 +147,9 @@ in order to install rpi-backlight-gui in the menu bar.
 
 # 3D Printing
 
-All the parts were printed with PLA using a Creality Ender 3V2 3D printer.  
+All the parts were printed with PLA using a Creality Ender 3V2 3D printer. Blender was
+used to create the 3D models to create the BuddyTablet.  The blender file is BuddyTab.blend.
+Blender is open source software and is supported on Linux, Mac OS X, and Windows. 
 
 ## Measurements
 
