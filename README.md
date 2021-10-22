@@ -29,7 +29,7 @@ The goals of the BuddyTablet are as follows:
 | Power Supply                    | https://www.amazon.com/dp/B07TSFYXBC                                                                | 10.99      |
 | Total                           |                                                                                                     | 389.20     |
 
-A total of 389.20 sounds like a lot of cash but if you consider a iPad with 256 GB of storage and wifi only is 479 you are saving ~ 100.  Try and get a
+A total of 389.20 sounds like a lot of cash but if you consider a iPad with 256 GB of storage and WiFi only is 479 you are saving ~ 100.  Try and get a
 iPad with 1 TB and you have to select the iPad Pro and the cost is 1,499 for a savings of 1,110!
 
 You could save money by reducing storage or reducing the amount of RAM on the Raspberry Pi 4, the BuddyTablet can be customized to meet your needs.
@@ -48,7 +48,7 @@ https://www.snia.org/technology-communities/sff/specifications?field_doc_status_
 
 ## Future version with higher resolution screen
 
-- Reviewed on Youtube: https://youtu.be/5Ffu75vIExA
+- Reviewed on YouTube: https://youtu.be/5Ffu75vIExA
 - 7" screen: https://www.amazon.com/WIMAXIT-Raspberry-Monitor-1024x600-Raspbian/dp/B0932CX42D?dchild=1&keywords=raspberry+pi+4+touch+screen,wimaxit+7+inch+portable&qid=1632764122&sr=8-4&linkCode=sl1&tag=leepspvideous-20&linkId=16a5692dae5cdce19ec18e9fef60c00d&language=en_US&ref_=as_li_ss_tl
 - 14" screen: https://www.amazon.com/gp/product/B08JLWNX22?pf_rd_r=6TZTJEVNCV2MCZWQPM9Z&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee&linkCode=sl1&tag=leepspvideous-20&linkId=463d5c30053121edecd54bc44dc5ede7&language=en_US&ref_=as_li_ss_tl
 
@@ -91,7 +91,7 @@ https://github.com/PiSugar/PiSugar/tree/master/model_pro
 # Raspberry Pi OS Setup
 
 We are going to use 32 bit of Raspberry Pi OS to make sure we can hardware accelerated
-Chrome and VLC.  To start we are going to use Rasberry Pi OS to keep things simple with
+Chrome and VLC.  To start we are going to use Raspberry Pi OS to keep things simple with
 no special programming required.
 
 ## How to Run Programs Without Warning
@@ -151,7 +151,7 @@ All the parts were printed with PLA using a Creality Ender 3V2 3D printer.
 
 ## Measurements
 
-- M2.5 screw holes shold be 2.75 mm in diameter
+- M2.5 screw holes should be 2.75 mm in diameter
 - M3 screw holes should be 3.25 mm in diameter
 
 - screw_hole_front: -4.7416, 79.258, 11.95
