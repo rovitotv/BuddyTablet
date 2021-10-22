@@ -29,7 +29,7 @@ The goals of the BuddyTablet are as follows:
 | Power Supply                    | https://www.amazon.com/dp/B07TSFYXBC                                                                | 10.99      |
 | Total                           |                                                                                                     | 389.20     |
 
-A total of 383.23 sounds like a lot of cash but if you consider a iPad with 256 GB of storage and wifi only is 479 you are saving ~ 100.  Try and get a
+A total of 389.20 sounds like a lot of cash but if you consider a iPad with 256 GB of storage and wifi only is 479 you are saving ~ 100.  Try and get a
 iPad with 1 TB and you have to select the iPad Pro and the cost is 1,499 for a savings of 1,110!
 
 You could save money by reducing storage or reducing the amount of RAM on the Raspberry Pi 4, the BuddyTablet can be customized to meet your needs.
