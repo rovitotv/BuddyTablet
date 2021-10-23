@@ -96,7 +96,7 @@ We are going to use 32 bit of Raspberry Pi OS to make sure we can hardware accel
 Chrome and VLC.  To start we are going to use Raspberry Pi OS to keep things simple with
 no special programming required.  I recommend that you create a user other than the
 default user of pi.  [Follow the Raspberry Pi OS directions here](https://www.raspberrypi.com/documentation/computers/using_linux.html#creating-a-new-user) to 
-create another user.
+create another user. To change the default user on a new boot [read this post](https://forums.raspberrypi.com/viewtopic.php?t=310024).
 
 ## How to Run Programs Without Warning
 
