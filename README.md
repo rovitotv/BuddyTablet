@@ -11,6 +11,8 @@ The goals of the BuddyTablet are as follows:
 - Must be able to watch videos YouTube, NetFlix, Hulu, HBO Max, Apple TV, etc
 - No soldering
 
+[Images of the BuddyTablet are here](https://github.com/rovitotv/BuddyTablet/tree/main/Images)
+
 # Hardware
 
 ## Parts List
