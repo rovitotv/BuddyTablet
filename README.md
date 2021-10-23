@@ -94,7 +94,9 @@ https://github.com/PiSugar/PiSugar/tree/master/model_pro
 
 We are going to use 32 bit of Raspberry Pi OS to make sure we can hardware accelerated
 Chrome and VLC.  To start we are going to use Raspberry Pi OS to keep things simple with
-no special programming required.
+no special programming required.  I recommend that you create a user other than the
+default user of pi.  [Follow the Raspberry Pi OS directions here](https://www.raspberrypi.com/documentation/computers/using_linux.html#creating-a-new-user) to 
+create another user.
 
 ## How to Run Programs Without Warning
 
