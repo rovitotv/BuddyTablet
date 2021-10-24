@@ -162,6 +162,23 @@ sudo apt install bluetooth pi-bluetooth bluez blueman
 
 [To learn more about blueman-applet read this blog post.](https://pimylifeup.com/raspberry-pi-bluetooth/) 
 
+## Netflix, Disney+, Hulu, HBO Max, video playback
+
+The Raspberry Pi OS doesn't ship with Widevine digital rights management (DRM) content
+protection which all the major streaming services use to protect their content. But 
+Widevine is available to the Raspberry Pi OS and can be installed with these simple
+commands:
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install libwidevinecdm0
+```
+
+After installing the libwidevine package simply restart Chromimum and you will then
+be able to watch your favorite streaming service.  [To learn more about installing Widevine DRM 
+read this blog post.](https://pimylifeup.com/raspberry-pi-widevine/).
+
 # 3D Printing
 
 All the parts were printed with PLA using a Creality Ender 3V2 3D printer. Blender was
