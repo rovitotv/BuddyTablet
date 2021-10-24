@@ -149,6 +149,19 @@ its own by the user.  [Follow the directions](https://github.com/linusg/rpi-back
 install the software.  We highly recommend [following the directions here](https://rpi-backlight.readthedocs.io/en/latest/usage.html#adding-a-shortcut-to-the-lxde-panel)
 in order to install rpi-backlight-gui in the menu bar.  
 
+## Bluetooth
+
+The bluetooth application that comes with Raspberry Pi OS doesn't work very well, so
+I recommend blueman-applet.  You can install blueman-applet with these commands:
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install bluetooth pi-bluetooth bluez blueman
+```
+
+[To learn more about blueman-applet read this blog post.](https://pimylifeup.com/raspberry-pi-bluetooth/) 
+
 # 3D Printing
 
 All the parts were printed with PLA using a Creality Ender 3V2 3D printer. Blender was
