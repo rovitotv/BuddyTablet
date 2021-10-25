@@ -76,27 +76,24 @@ BuddyTab.
 https://github.com/PiSugar/PiSugar/tree/master/model_pro
 
 
-## Issues that need to be fixed
-
-- We need to check all the holes and make sure they are the right size!
-- Wire management!  
-- USB ports need to be wider to account for side wall
-- Bottom is not level!
-
-## Software that needs to be installed
-
-- Docker
-- Emulation retro arcade, test joystick
-- Super Tux Cart Racer
-- Maelstorm
 
 # Raspberry Pi OS Setup
 
 We are going to use 32 bit of Raspberry Pi OS to make sure we can hardware accelerated
 Chrome and VLC.  To start we are going to use Raspberry Pi OS to keep things simple with
-no special programming required.  I recommend that you create a user other than the
-default user of pi.  [Follow the Raspberry Pi OS directions here](https://www.raspberrypi.com/documentation/computers/using_linux.html#creating-a-new-user) to 
-create another user. To change the default user on a new boot [read this post](https://forums.raspberrypi.com/viewtopic.php?t=310024).
+no special programming required.  
+
+## Creating new user for your BuddyTablet
+
+I recommend that you create a user other than the default user of pi.  
+[Follow the Raspberry Pi OS directions here](https://www.raspberrypi.com/documentation/computers/using_linux.html#creating-a-new-user) to 
+create another user. To change the default user on a new boot [read this post](https://forums.raspberrypi.com/viewtopic.php?t=310024). 
+Other steps you should take is add the newuser to a few useful groups with the following commands:
+
+```bash
+sudo adduser new_user_name bluetooth
+sudo adduser new_user_name netdev
+```
 
 ## How to Run Programs Without Warning
 
