@@ -188,6 +188,18 @@ is completly free with a Linux port.  To install it use the instructions below:
 sudo apt-get install maelstrom
 ```
 
+### Quake 3
+
+[Quake 3](https://en.wikipedia.org/wiki/Quake_III_Arena) is a classic game that has offered me years of
+entertainment value.  The demonstration version is very easy to install:
+
+```bash
+sudo apt install quake3
+game-data-packager quake3 -i --gain-root-command sudo
+```
+
+If you own the game you can install the .pk3 files, [read this blog post](https://pimylifeup.com/raspberry-pi-quake-3/).
+
 
 # 3D Printing
 
