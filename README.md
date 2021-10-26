@@ -176,6 +176,15 @@ After installing the libwidevine package simply restart Chromimum and you will t
 be able to watch your favorite streaming service.  [To learn more about installing Widevine DRM 
 read this blog post.](https://pimylifeup.com/raspberry-pi-widevine/).
 
+## Games
+
+[Maelstrom](https://en.wikipedia.org/wiki/Maelstrom_(1992_video_game)) a asteroids clone from the 1990's and ported to Linux:
+
+```bash
+sudo apt-get install maelstrom
+```
+
+
 # 3D Printing
 
 All the parts were printed with PLA using a Creality Ender 3V2 3D printer. Blender was
