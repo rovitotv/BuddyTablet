@@ -178,7 +178,11 @@ read this blog post.](https://pimylifeup.com/raspberry-pi-widevine/).
 
 ## Games
 
-[Maelstrom](https://en.wikipedia.org/wiki/Maelstrom_(1992_video_game)) a asteroids clone from the 1990's and ported to Linux:
+
+### Maelstrom
+
+[Maelstrom](https://en.wikipedia.org/wiki/Maelstrom_(1992_video_game)) a asteroids clone from the 1990's that
+is completly free with a Linux port.  To install it use the instructions below:
 
 ```bash
 sudo apt-get install maelstrom
