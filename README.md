@@ -176,6 +176,19 @@ After installing the libwidevine package simply restart Chromimum and you will t
 be able to watch your favorite streaming service.  [To learn more about installing Widevine DRM 
 read this blog post.](https://pimylifeup.com/raspberry-pi-widevine/).
 
+## Telegram
+
+Telegram is a chat application that is open source and free and runs across devices like
+the BuddyTablet, iOS, and Android.  So you can can communicate with all your friends no
+matter what device they have.  Telegram is in the Raspberry Pi OS repo so to install use
+the following commands:
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install telegram-desktop
+```
+
 ## Games
 
 
@@ -199,6 +212,19 @@ game-data-packager quake3 -i --gain-root-command sudo
 ```
 
 If you own the game you can install the .pk3 files, [read this blog post](https://pimylifeup.com/raspberry-pi-quake-3/).
+
+### Duke Nukem
+
+https://github.com/nukeykt/NBlood and try the shareware versions?
+
+
+### Legal ROM Emulation
+
+https://magpi.raspberrypi.com/articles/play-classic-console-games-legally-on-raspberry-pi
+
+### More games to look at
+
+https://raspberrytips.com/raspberry-pi-os-best-games/
 
 
 # 3D Printing
