@@ -76,25 +76,24 @@ BuddyTab.
 https://github.com/PiSugar/PiSugar/tree/master/model_pro
 
 
-## Issues that need to be fixed
-
-- We need to check all the holes and make sure they are the right size!
-- Wire management!  
-- USB ports need to be wider to account for side wall
-- Bottom is not level!
-
-## Software that needs to be installed
-
-- Docker
-- Emulation retro arcade, test joystick
-- Super Tux Cart Racer
-- Maelstorm
 
 # Raspberry Pi OS Setup
 
 We are going to use 32 bit of Raspberry Pi OS to make sure we can hardware accelerated
 Chrome and VLC.  To start we are going to use Raspberry Pi OS to keep things simple with
-no special programming required.
+no special programming required.  
+
+## Creating new user for your BuddyTablet
+
+I recommend that you create a user other than the default user of pi.  
+[Follow the Raspberry Pi OS directions here](https://www.raspberrypi.com/documentation/computers/using_linux.html#creating-a-new-user) to 
+create another user. To change the default user on a new boot [read this post](https://forums.raspberrypi.com/viewtopic.php?t=310024). 
+Other steps you should take is add the newuser to a few useful groups with the following commands:
+
+```bash
+sudo adduser new_user_name bluetooth
+sudo adduser new_user_name netdev
+```
 
 ## How to Run Programs Without Warning
 
@@ -146,6 +145,87 @@ of the display.  Recall we have no ambient light sensor so the display needs to 
 its own by the user.  [Follow the directions](https://github.com/linusg/rpi-backlight) to
 install the software.  We highly recommend [following the directions here](https://rpi-backlight.readthedocs.io/en/latest/usage.html#adding-a-shortcut-to-the-lxde-panel)
 in order to install rpi-backlight-gui in the menu bar.  
+
+## Bluetooth
+
+The bluetooth application that comes with Raspberry Pi OS doesn't work very well, so
+I recommend blueman-applet.  You can install blueman-applet with these commands:
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install bluetooth pi-bluetooth bluez blueman
+```
+
+[To learn more about blueman-applet read this blog post.](https://pimylifeup.com/raspberry-pi-bluetooth/) 
+
+## Netflix, Disney+, Hulu, HBO Max, video playback
+
+The Raspberry Pi OS doesn't ship with Widevine digital rights management (DRM) content
+protection which all the major streaming services use to protect their content. But 
+Widevine is available to the Raspberry Pi OS and can be installed with these simple
+commands:
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install libwidevinecdm0
+```
+
+After installing the libwidevine package simply restart Chromimum and you will then
+be able to watch your favorite streaming service.  [To learn more about installing Widevine DRM 
+read this blog post.](https://pimylifeup.com/raspberry-pi-widevine/).
+
+## Telegram
+
+Telegram is a chat application that is open source and free and runs across devices like
+the BuddyTablet, iOS, and Android.  So you can can communicate with all your friends no
+matter what device they have.  Telegram is in the Raspberry Pi OS repo so to install use
+the following commands:
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install telegram-desktop
+```
+
+## Games
+
+
+### Maelstrom
+
+[Maelstrom](https://en.wikipedia.org/wiki/Maelstrom_(1992_video_game)) a asteroids clone from the 1990's that
+is completly free with a Linux port.  To install it use the instructions below:
+
+```bash
+sudo apt-get install maelstrom
+```
+
+### Quake 3
+
+[Quake 3](https://en.wikipedia.org/wiki/Quake_III_Arena) is a classic game that has offered me years of
+entertainment value.  The demonstration version is very easy to install:
+
+```bash
+sudo apt install quake3
+game-data-packager quake3 -i --gain-root-command sudo
+```
+
+If you own the game you can install the .pk3 files, [read this blog post](https://pimylifeup.com/raspberry-pi-quake-3/).
+
+### Duke Nukem
+
+https://github.com/nukeykt/NBlood and try the shareware versions?
+
+
+### Legal ROM Emulation
+
+https://magpi.raspberrypi.com/articles/play-classic-console-games-legally-on-raspberry-pi
+
+### More games to look at
+
+https://raspberrytips.com/raspberry-pi-os-best-games/
+
 
 # 3D Printing
 
