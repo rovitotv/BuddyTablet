@@ -141,9 +141,8 @@ check out [CommanderPi's GitHub](https://github.com/Jack477/CommanderPi).
 ## RPI Backlight
 
 [RPI Backlight](https://github.com/linusg/rpi-backlight) allows a user to set the backlight
-of the display.  Recall the BuddyTablet has no ambient light sensor so the display needs to be set by the user.  
-[Follow the directions](https://github.com/linusg/rpi-backlight) to
-install the software.  We highly recommend
+of the display.  Recall the BuddyTablet has no ambient light sensor so the display needs to be set by the user. [Follow the directions](https://github.com/linusg/rpi-backlight) 
+to install the software.  We highly recommend
 [following the directions here](https://rpi-backlight.readthedocs.io/en/latest/usage.html#adding-a-shortcut-to-the-lxde-panel)
 in order to install rpi-backlight-gui in the menu bar.  
 
