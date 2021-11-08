@@ -141,9 +141,9 @@ check out [CommanderPi's GitHub](https://github.com/Jack477/CommanderPi).
 ## RPI Backlight
 
 [RPI Backlight](https://github.com/linusg/rpi-backlight) allows a user to set the backlight
-of the display.  Recall we have no ambient light sensor so the display needs to be set on
-its own by the user.  [Follow the directions](https://github.com/linusg/rpi-backlight) to
-install the software.  We highly recommend [following the directions here](https://rpi-backlight.readthedocs.io/en/latest/usage.html#adding-a-shortcut-to-the-lxde-panel)
+of the display.  Recall the BuddyTablet has no ambient light sensor so the display needs to be set by the user. [Follow the directions](https://github.com/linusg/rpi-backlight) 
+to install the software.  We highly recommend
+[following the directions here](https://rpi-backlight.readthedocs.io/en/latest/usage.html#adding-a-shortcut-to-the-lxde-panel)
 in order to install rpi-backlight-gui in the menu bar.  
 
 ## Bluetooth
@@ -213,12 +213,20 @@ game-data-packager quake3 -i --gain-root-command sudo
 
 If you own the game you can install the .pk3 files, [read this blog post](https://pimylifeup.com/raspberry-pi-quake-3/).
 
-### Duke Nukem
 
-https://github.com/nukeykt/NBlood and try the shareware versions?
+### Arcade Emulation with Mame (Multiple Arcade Machine Emulator)
 
+You could install RetroPi or RetroArch but they are complicated and offer many features that
+might not be needed.  One simple solution if you only want to run classic arcade games is
+install mame from the Debian repository with the following command:
 
-### Legal ROM Emulation
+```bash
+sudo apt-get install mame
+```
+
+To learn how to add ROMs check out the [Debian wiki about mame](https://wiki.debian.org/Mame).
+
+#### Legal ROM Emulation
 
 https://magpi.raspberrypi.com/articles/play-classic-console-games-legally-on-raspberry-pi
 
@@ -237,6 +245,7 @@ Blender is open source software and is supported on Linux, Mac OS X, and Windows
 
 - M2.5 screw holes should be 2.75 mm in diameter
 - M3 screw holes should be 3.25 mm in diameter
+    - most of the screws are M3 just the posts and the screws on the raspberry pi are M2.5
 
 - screw_hole_front: -4.7416, 79.258, 11.95
 - screw_hole_back: -4.7416, 2.6281, 11.95
@@ -270,6 +279,10 @@ https://www.tal.org/tutorials/building-qt-515-raspberry-pi
 ## How to Build KDE Plasma Mobile
 
 https://community.kde.org/Get_Involved/development#Set_up_kdesrc-build
+
+## Duke Nukem
+
+https://github.com/nukeykt/NBlood and try the shareware versions?
 
 
 
