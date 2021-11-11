@@ -93,9 +93,11 @@ https://github.com/PiSugar/PiSugar/tree/master/model_pro
 
 # Raspberry Pi OS Setup
 
-We are going to use 32 bit of Raspberry Pi OS to make sure we can hardware accelerated
+We are going to use 32 bit of Raspberry Pi OS to make sure we can have hardware accelerated
 Chrome and VLC.  To start we are going to use Raspberry Pi OS to keep things simple with
-no special programming required.  
+no special programming required.  The 64 bit version of Raspberry Pi OS is still in beta
+and it is still recommended to use the 32 bit version.  We are using the "Bullseye" version
+of Raspberry Pi OS which was released on 11/8/2021. 
 
 ## Creating new user for your BuddyTablet
 
