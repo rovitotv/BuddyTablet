@@ -113,7 +113,6 @@ with a new user.
 4. Save & close
 5. Reboot
 
-
 Other steps you should take is add the newuser to a few useful groups with the following commands:
 
 ```bash
