@@ -36,14 +36,28 @@ iPad with 1 TB and you have to select the iPad Pro and the cost is 1,499 for a s
 
 You could save money by reducing storage or reducing the amount of RAM on the Raspberry Pi 4, the BuddyTablet can be customized to meet your needs.
 
-## Benchmarks for SSD/NVMe on Raspberry Pi
+## SSD/NVMe on Raspberry Pi
+
+Raspberry Pi now boots from USB 3.0 ports which opens up a range of options.  MicroSD cards are slow but are small and easy to take
+in and out of the Raspberry Pi.  The BuddyTablet has an opening to allow you to swap in/out MicroSD cards which is nice if you
+want to experiment with a new operating system. By default the Raspberry Pi will boot the MicroSD card first if a MicroSD card is
+installed.  You can find boot options with raspi-config.  SSD is my favorite option because it offers the most speed for the least
+amount of power. If you want the fastest speed try NVMe but be warned because most NVMe drives will require extra power and the 
+BuddyTablet would have to be modified to make up for the extra room.  Our recommendation is to use a low power SSD drive
+the Kingson A400 is popular and works well so that is what we are using for the baseline BuddyTab configuration.
+
+### Benchmarks for SSD/NVMe on Raspberry Pi
 
 https://jamesachambers.com/2020s-fastest-raspberry-pi-4-storage-sd-ssd-benchmarks/
+
+### USB Flash Drive
 
 Is a USB flash drive worth trying? https://www.amazon.com/PNY-Elite-Flash-Speeds-P-FD1TBPRO-GE/dp/B01E17LOL6?tag=w050b-20&th=1
 Pi benchmarks on the PNY: https://pibenchmarks.com/brand/PNY_Pro_Elite_USB
 
-## 2.5" SSD specifications
+I have not tried out the PNY Poo Elite but this might drive would eliminate the need for a USB to SATA cable.
+
+### 2.5" SSD specifications
 
 https://www.snia.org/technology-communities/sff/specifications?field_doc_status_value=All&combine=8201&items_per_page=20
 
