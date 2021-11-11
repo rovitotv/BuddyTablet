@@ -103,7 +103,17 @@ of Raspberry Pi OS which was released on 11/8/2021.
 
 I recommend that you create a user other than the default user of pi.  
 [Follow the Raspberry Pi OS directions here](https://www.raspberrypi.com/documentation/computers/using_linux.html#creating-a-new-user) to 
-create another user. To change the default user on a new boot [read this post](https://forums.raspberrypi.com/viewtopic.php?t=310024). 
+create another user. To change the default user on a new boot [read this post](https://forums.raspberrypi.com/viewtopic.php?t=310024) or
+follow the directions below.  After the new user is created you can change the lightdm configration file to autologin
+with a new user.  
+
+1. With sudo edit this file /etc/lightdm/lightdm.conf in your preferred text editor.
+2. Locate the line "autologin-user=pi"
+3. Replace "pi" with the desired username. The chosen user must exist.
+4. Save & close
+5. Reboot
+
+
 Other steps you should take is add the newuser to a few useful groups with the following commands:
 
 ```bash
